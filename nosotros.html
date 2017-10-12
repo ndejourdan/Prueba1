@@ -6,10 +6,11 @@
 	<title>Fundación Asperger | Nosotros</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="sandstone.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
 	<!-- Brand and toggle get grouped for better mobile display -->
 
@@ -33,11 +34,17 @@
 		</div><!-- /.container-fluid -->
 	</nav>
 
+	
+		<div class="jumbotron historia">
+			<div class="container">
+				<h1>Nuestra Fundación</h1>
+				<h2>Apoyar - Educar - Incluir</h2>
+				<h3>"Lo normal es que seamos diferentes"</h3>
+			</div>
+		</div>
+
 	<div class="container">
-		<h1>Nuestra Fundación y Misión</h1>
-		<h2>Apoyar - Educar - Incluir</h2>
-		<h3>"Lo normal es que seamos diferentes"</h3>
-		
+
 		<p class="destacado">¿Quiénes somos?</p>
 		<p>Asperger Chile nace el 22 de Mayo de 2008, como una comunidad virtual desde la plataforma Facebook.</p>
 
@@ -59,11 +66,30 @@
 
 		<p class="destacado">Nuestra personalidad jurídica fue concedida por Decreto Supremo N°6750, de 29 de diciembre de 2011, del Ministerio de Justicia, publicado en el diario oficial el 31 de enero 2012.</p>
 
-		<img src="images/directoraejecutiva.jpg" alt="Loreto Días Puratic">
-		<img src="images/directorasuntosint.jpg" alt="James H. Born">
+		<div class="row">
+		<div class="col-md-2 col-md-offset-3 thumbnail">
+			<img src="images/directoraejecutiva.jpg" alt="Loreto Días Puratic" class="img-responsive img-rounded">
+			<p class="destacado foto">Loreto Díaz Puratic</p>
+			<p class="foto">Directora Ejecutiva</p>
+		</div>
+		<div class="col-md-2 col-md-offset-1 thumbnail">
+			<img src="images/directorasuntosint.jpg" alt="James H. Born" class="img-responsive img-rounded">
+			<p class="destacado foto">James H. Born</p>
+			<p class="foto">Director de Asuntos Internacionales</p>
+		</div>		
+		</div>
+	</div>
 
-		<h2>Nuestra Misión</h2>
+		<div class="jumbotron">
+			<div class="container">
+				<h2>Nuestra Misión</h2>
+			</div>
+		</div>
+<div class="container">
+	<div class="row">
+		<img src="images/nosotros.jpg" alt="Fundación Asperger" class="img-responsive img-rounded thumbnail col-md-3">
 
+		<div class="col-md-9">
 		<p>“Apoyar y acompañar a las familias con Asperger y Autismo de Alto Funcionamiento en el camino hacia la inclusión social”.</p>
 
 		<p>Objetivos:</p>
@@ -75,10 +101,10 @@
 		<li>Desarrollar en los diferentes actores de nuestra sociedad, una actitud de respeto y tolerancia a la neurodiversidad.</li>
 		<li>Salvaguardar los derechos de nuestros niños, jóvenes y adultos,   a una  educación de calidad y a las terapias médicas y para-médicas que sean necesarias para lograr la igualdad de oportunidades, que contribuirán a obtener la calidad de vida que toda persona merece.</li>
 		</ul>
-
-		<img src="images/nosotros.jpg" alt="Fundación Asperger">
-
+		</div>
 	</div>
+</div>
+
 
 <footer class="container">
 	<div class="row">
@@ -88,10 +114,9 @@
 		
 		<address class="col-sm-2 col-md-2">
 			<strong>Síguenos</strong><br>
-			<a href="#"><img src="images/facebook.png" alt="" class="img-circle"></a>
-			<a href="#"><img src="images/twitter.png" alt="" class="img-circle"></a>
-			<a href="#"><img src="images/youtube.png" alt="" class="img-circle"></a>
-
+			<a href="https://www.facebook.com/pages/Fundacion-Asperger-Chile/116320555087515"><img src="images/facebook.png" alt="" class="img-circle"></a>
+			<a href="https://twitter.com/Aspergerchile_F"><img src="images/twitter.png" alt="" class="img-circle"></a>
+			<a href="https://www.youtube.com/channel/UCv927I1W_spt4eVdrYUSlqw"><img src="images/youtube.png" alt="" class="img-circle"></a>
 		</address>
 			<form class="form-horizontal col-md-6">
 				<h3>Contacto</h3>
@@ -103,7 +128,7 @@
 				</div>
 				<div class="form-group">
 					<label for="exampleInputEmail2" class="col-sm-2">Correo electrónico</label>
-					<div class="col-sm-10 col-md-3">
+					<div class="col-sm-10">
 						<input type="password" class="form-control" id="exampleInputEmail2" placeholder="ejemplo@ejemplo.com">
 					</div>
 				</div>
